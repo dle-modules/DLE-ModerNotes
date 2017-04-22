@@ -1,9 +1,9 @@
 <?php
 /*
- * DLE-Starter — "Hello Word" модуль для DLE
+ * DLE-ModerNotes — Модуль заметок о пользователях
  *
  * @author     ПафНутиЙ <pafnuty10@gmail.com>
- * @link       https://git.io/vPLpe
+ * @link       https://git.io/v9Tgv
  */
 
 
@@ -12,8 +12,8 @@
  */
 
 $contacts = '
-<a href="https://github.com/dle-modules/DLE-StarterKit" target="_blank">DLE-StarterKit</a> — Репозиторий модуля <br>
-<a href="https://github.com/dle-modules/DLE-StarterKit/issues/new" target="_blank">Техподдержка модуля</a><br>
+<a href="https://github.com/dle-modules/DLE-ModerNotes" target="_blank">DLE-ModerNotes</a> — Репозиторий модуля <br>
+<a href="https://github.com/dle-modules/DLE-ModerNotes/issues/new" target="_blank">Техподдержка модуля</a><br>
 ';
 
 
