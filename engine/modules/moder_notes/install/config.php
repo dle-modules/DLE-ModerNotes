@@ -1,9 +1,9 @@
 <?php
 /*
- * DLE-Starter — "Hello Word" модуль для DLE
+ * DLE-ModerNotes — Модуль заметок о пользователях
  *
  * @author     ПафНутиЙ <pafnuty10@gmail.com>
- * @link       https://git.io/vPLpe
+ * @link       https://git.io/v9Tgv
  */
 
 
@@ -21,10 +21,10 @@ return [
 	'moduleDescr'   => 'Заметки модераторов',
 
 	// Версия модуля
-	'moduleVersion' => '1.0.0',
+	'moduleVersion' => '1.0.1',
 
 	// Дата выпуска модуля
-	'moduleDate'    => '20.04.2017',
+	'moduleDate'    => '23.04.2017',
 
 	// Версии DLE, поддержваемые модулем
 	'minVersion'    => '11.0',

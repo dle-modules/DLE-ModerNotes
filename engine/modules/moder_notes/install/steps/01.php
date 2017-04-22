@@ -1,9 +1,9 @@
 <?php
 /*
- * DLE-Starter — "Hello Word" модуль для DLE
+ * DLE-ModerNotes — Модуль заметок о пользователях
  *
  * @author     ПафНутиЙ <pafnuty10@gmail.com>
- * @link       https://git.io/vPLpe
+ * @link       https://git.io/v9Tgv
  */
 
 
