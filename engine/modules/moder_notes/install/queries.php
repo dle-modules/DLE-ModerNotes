@@ -11,14 +11,15 @@
  * Этот файл отвеает за выполнение sql запросов во время установки модуля.
  */
 return [
-'CREATE TABLE `' . PREFIX . '_user_notes` (
-	`id` int(11) NOT NULL AUTO_INCREMENT,
-	`user_id` int(11) NOT NULL,
-	`user_name` varchar(40) NOT NULL,
-	`text` TEXT NOT NULL,
-	`date` DATETIME NOT NULL,
-	`is_private` tinyint(1) NOT NULL DEFAULT \'1\',
+'CREATE TABLE `' . PREFIX . '_moder_notes` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`user_id` INT(11) NOT NULL COMMENT \'ID пользователя, добавившего заметку\',
+	`user_name` VARCHAR(40) NOT NULL COMMENT \'Логин пользователя, о котором написана заметка\',
+	`text` TEXT NOT NULL COMMENT \'Текст заметки\',
+	`date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	`is_private` TINYINT(1) NOT NULL DEFAULT \'1\' COMMENT \'Личная/публичная заметка\',
 	PRIMARY KEY (`id`),
-	KEY `user_id` (`user_id`)
-);'
+	INDEX `user_id` (`user_id`)
+);
+'
 ];
